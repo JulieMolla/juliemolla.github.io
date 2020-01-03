@@ -1,0 +1,43 @@
+/*Font-family: hind Guntur, sans-serif*/
+@import url('https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap');
+
+
+.bloc_page {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+aside {
+    position: relative;
+    width: 100%;
+}
+
+.image__position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+}
+
+.image__menu {
+
+}
+
+.image__background {
+    background-image: url('images/image.jpeg');
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.image__network {
+
+}
