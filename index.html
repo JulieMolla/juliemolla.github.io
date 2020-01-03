@@ -234,7 +234,15 @@
             <h2>Contact</h2>
         </section>
         <section class="main__section main__formulaire">
-            <h2>Formulaire</h2>
+            <h2>Contactez-moi!</h2>
+            <form metho="post" action="traitement.js">
+                <p><label for="nom">Nom</label> <br><input type="text" name="nom" id="nom" placeholder="Ex: Jean Dupont" size="30" maxlength="100" required/></p>
+                <p><label for="email">Email</label><br><input type="email" name="email" id="email" placeholder="Ex: nom.prenom@email.com" size="30" maxlength="100" required/></p>
+                <p><label for="objet">Objet</label><br><input type="text" name="objet" id="objet" placeholder="Ex: Demande d'informations" size="30" maxlength="200" required/></p>
+                <p><label for="message">Message</label><br><textarea type="text" name="message" id="message" placeholder="Ex: Vous pouvez écrire votre message ici." maxlength="500" row="10" cols="28" required></textarea></p>
+                <p><input type="submit" value="Envoyer"></p>
+
+            </form>
         </section>
     </main>
     <footer></footer>
