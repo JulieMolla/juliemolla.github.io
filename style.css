@@ -9,6 +9,15 @@
     grid-template-columns: 50% 50%;
 }
 
+h2 {
+    color: #777777;
+}
+
+p {
+    text-align: justify;
+}
+
+
 aside {
     position: relative;
     width: 100%;
@@ -80,12 +89,43 @@ aside {
     flex-direction: row;
 }
 
-h2 {
-    color: #777777;
+.experience {
+    padding: 10px;
 }
 
-p {
-    text-align: justify;
+.experience__title {
+    line-height: 2px;
+}
+
+.experience__date {
+    font-size: small;
+    color: #717171;
+    font-size: 0.65em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience__job {
+    text-transform: uppercase;
+    font-weight: bold;
+    white-space: normal;
+}
+
+.experience__compagny {
+    font-weight: bold;
+    font-size: 0.75em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience__location {
+    font-weight: normal;
+    font-size: 0.75em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.experience__task {
+    line-height: 25px;
+    list-style-position: center;
+    list-style-type: square;
 }
 
 footer {
