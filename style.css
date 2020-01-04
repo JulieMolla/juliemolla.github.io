@@ -46,6 +46,10 @@ aside {
     
 }
 
+.image__background:hover {
+    background-image: url("images/logo.png");
+}
+
 .image__network {
 
 }
