@@ -16,7 +16,8 @@ h2 {
 
 p {
     text-align: justify;
-    font-size: 14px; 
+    font-size: 14px;
+    line-height: 25px; 
 }
 
 
@@ -75,11 +76,13 @@ aside {
     padding: 40px;
 }
 
-.expertise__contain {
+.expertise__contain, .interest {
     display: grid;
     grid-template-columns: 50% 50%;
-    text-align: justify;
     grid-gap: 25px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
 }
 
 .main__competence {
@@ -146,7 +149,82 @@ aside {
     list-style-type: square;
 }
 
+.interest__form  p{
+    margin: 1px;
+}
 
+.interest__form h4 {
+    margin: 1px; 
+}
+
+label {
+    display: block;
+    font-size;: 14px;
+}
+
+input, textarea {
+    font-size: 14px;  
+    border  : none;
+    padding : 0 10px;
+    margin  : 0;
+    width   : 240px;
+    background: none;
+  }
+
+  input:focus, textarea:focus {
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline: none;
+  }
+
+  input {
+    height: 14px; 
+    vertical-align: middle; 
+}
+
+textarea {
+    display : block;
+  
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 340px;
+    height  : 360px;
+  
+    resize  : none;
+    overflow: auto;
+  }
+
+  button {
+    position     : absolute;
+    left         : 440px;
+    top          : 360px;
+  
+    padding      : 5px;
+  
+    font         : bold .6em sans-serif;
+    border       : 2px solid #333;
+    border-radius: 5px;
+    background   : none;
+  
+    cursor       : pointer;
+  
+  -webkit-transform: rotate(-1.5deg);
+     -moz-transform: rotate(-1.5deg);
+      -ms-transform: rotate(-1.5deg);
+       -o-transform: rotate(-1.5deg);
+          transform: rotate(-1.5deg);
+  }
+  
+  button:after {
+    content: " >>>";
+  }
+  
+  button:hover,
+  button:focus {
+    outline   : none;
+    background: #000;
+    color   : #FFF;
+  }
 
 footer {
     text-align: center;
