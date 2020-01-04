@@ -10,7 +10,7 @@
 }
 
 h2 {
-    color: #777777;
+    color:#b28735;
 }
 
 p {
@@ -33,7 +33,7 @@ aside {
     position: fixed;
     background-image: url('images/backgroundmainnb.png');
     background-size: auto;
-    background-position: 71% 57%;
+    background-position: 41% 40%;
     background-repeat: no-repeat;
     padding: 10px;
     box-sizing: border-box;
@@ -56,7 +56,7 @@ aside {
 }
 
 .image__background:hover {
-    background-image: url("images/logo.png");
+    background-image: url("images/logogold.png");
 
 }
 
@@ -78,6 +78,22 @@ aside {
     grid-template-columns: 50% 50%;
     text-align: justify;
     grid-gap: 25px;
+}
+
+.progressbar__grey {
+    width: 100%;
+    min-height: 5px;
+    background-color:#b287357a; 
+    border-radius: 2em;
+    box-sizing: border-box;
+}
+
+.progressbar__gold {
+    min-height: 5px;
+    background-color: #b28735;
+    border-radius: 2em;
+    padding: 3px 10px;
+    box-sizing: border-box;
 }
 
 
