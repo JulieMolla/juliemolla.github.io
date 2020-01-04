@@ -1,20 +1,22 @@
-/*Font-family: hind Guntur, sans-serif*/
-@import url('https://fonts.googleapis.com/css?family=Hind+Guntur&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
 .bloc_page {
     margin: auto;
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
+    font-family: "Montserrat";
+
 }
 
 h2 {
     color:#b28735;
+    margin-top: 0px;
 }
 
 p {
     text-align: justify;
+    font-size: 14px; 
 }
 
 
@@ -65,7 +67,7 @@ aside {
 }
 
 .main__section:nth-child(odd) {
-    background-color:#dedede;
+    background-color: #f5f5f5;
 }
 
 
@@ -80,6 +82,15 @@ aside {
     grid-gap: 25px;
 }
 
+.main__competence {
+    font-size: 14px;
+}
+
+.competence__title {
+    margin: 15px 5px 5px 5px;
+
+}
+
 .progressbar__grey {
     width: 100%;
     min-height: 5px;
@@ -92,41 +103,40 @@ aside {
     min-height: 5px;
     background-color: #b28735;
     border-radius: 2em;
-    padding: 3px 10px;
+    padding: 1px 10px;
     box-sizing: border-box;
 }
 
 
-.experience {
+.experience, .formation {
     padding: 10px;
 }
 
-.experience__title {
-    line-height: 2px;
+.experience__title, .formation {
+    line-height: 4px;
 }
 
-.experience__date {
+.experience__date, .formation__date {
     font-size: small;
     color: #717171;
-    font-size: 0.65em;
+    font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.experience__job {
+.experience__job, .formation__certificate {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     white-space: normal;
 }
 
-.experience__compagny {
-    font-weight: bold;
-    font-size: 0.75em;
+.experience__compagny, .formation__school {
+    font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.experience__location {
+.experience__location, .formation__location{
     font-weight: normal;
-    font-size: 0.75em;
+    font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -135,6 +145,8 @@ aside {
     list-style-position: center;
     list-style-type: square;
 }
+
+
 
 footer {
     text-align: center;
