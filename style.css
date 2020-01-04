@@ -22,7 +22,10 @@ aside {
     height: 100vh;
     width: 50%;
     position: fixed;
-    background-image: url('images/background.png');
+    background-image: url('images/backgroundmainnb.png');
+    background-size: auto;
+    background-position: 71% 57%;
+    background-repeat: no-repeat;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -32,14 +35,14 @@ aside {
 }
 
 .image__background {
-    background-image: url('images/logo.png');
+    background-image: url('images/imagemanegenb.jpeg');
     border-radius: 50%;
     height: 200px;
     width: 200px;
     background-repeat: no-repeat;
-    background-size: auto 180%;
+    background-size: auto 100%;
     background-position: center;
-    border: 8px solid white;
+    border: 5px solid white;
     
 }
 
@@ -48,12 +51,37 @@ aside {
 }
 
 .main__section:nth-child(odd) {
-    background-color: #f1f1f1;
+    background-color:#dedede;
 }
 
 
 .main__section {
-    padding: 40px
+    padding: 40px;
+}
+
+.expertise__contain {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: justify;
+}
+
+.expertise__column1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.expertise__column2 {
+    display: flex; 
+    flex-direction: row;
+}
+
+h2 {
+    color: #777777;
+}
+
+p {
+    text-align: justify;
 }
 
 footer {
