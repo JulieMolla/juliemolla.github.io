@@ -146,9 +146,11 @@ aside {
     padding: 10px;
 }
 
-.details {
-    font-size: 6px;
-    font-weight: lighter;
+summary {
+    font-size: 12px;
+    font-style: italic;
+    color: #7b7b7b;
+    
     
 }
 
@@ -246,4 +248,16 @@ textarea {
     text-align: center;
     font-weight: 6px;
     line-height: 2px;
+}
+
+@media screen and (max-width: 960px) {
+    .bloc_page {
+        display: block;
+
+    }
+
+    .image__position {
+        position: relative;
+        width:100%;
+    }
 }
