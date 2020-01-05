@@ -15,17 +15,20 @@
         <div class="image__position">
             <nav class="image__menu"></nav>
             <section class="image__background"></section>
+            <div class="image__bottom">
+            <section class="nom">Julie Molla</section>
             <section class="image__network">
                 <div class="network__linkedin">
-                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/juliemolla/" target="blank"><i class="fab fa-linkedin"></i></a>
                 </div>
                 <div class="network__github">
-                <i class="fab fa-github"></i>
+                <a href="https://github.com/JulieMolla" target="blank"><i class="fab fa-github"></i></a>
                 </div>
                 <div class="network__twitter">
-                <i class="fab fa-twitter-square"></i>
+                <a href="https://twitter.com/julie__molla" target="blank"><i class="fab fa-twitter-square"></i></a>
                 </div>
             </section>
+</div>
         </div>
     </aside>
 
@@ -48,8 +51,7 @@
                 </div>
                 <div>
                     <p><strong>Organisation et ponctualité</strong><br>
-                        Pas de stress de dernière minute, l'organisation fait loi avec moi <em>(sans jeu de mots de
-                            juriste)</em>!
+                        Pas de stress de dernière minute, l'organisation fait loi avec moi!
                     </p>
                 </div>
                 <div>
@@ -62,7 +64,7 @@
                 <div>
                     <p><strong>Adaptation</strong><br>
 
-                        Pour pouvoir exercer deux métiers, il faut être capable de s'adapter.
+                        Pour pouvoir exercer deux métiers, il faut être capable de s'adapter...
                     </p>
                 </div>
             </div>
