@@ -9,7 +9,7 @@
 <body>
 <section class="main__section main__formulaire">
             <h2>Contactez-moi!</h2>
-            <p>Une remarque? Une suggestion? Ou encore mieux: un poste à m'offrir? N'hésitez pas à m'écrire!</p>
+            <p>Une remarque? Une suggestion? Ou encore mieux: une mission ou un poste à m'offrir? N'hésitez pas à m'écrire!</p>
             <form metho="post" action="contact.php">
                 <p>
                     <label for="nom">Nom</label>

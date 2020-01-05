@@ -110,7 +110,8 @@
                         <div>Paris (75)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                     <ul>
                         <li>Intégrer un thème Wordpress pour un client (agence immobilière de luxe)</li>
                         <li>Site de communication pour un festival de films</li>
@@ -121,7 +122,8 @@
                         <li>Reprise d'un projet existant</li>
                         <li>Construction d'un outil de veille technologique</li>
                     </ul>
-                </div>-->
+                </div>
+</details>
             </div>
             <div class="experience">
                 <div class="experience__title">
@@ -138,7 +140,8 @@
                         <div>Paris (75)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                         <ul>
                             <li>1000 consultations juridiques par an en gestion locative sociale</li>
                             <li>Rédaction des amendements dans le cadre de travaux parlementaires</li>
@@ -146,7 +149,8 @@
                                 et de notes juridiques, etc.)</li>
                             <li>Veille juridique et règlementaire</li>
                         </ul>
-                    </div>-->
+                    </div>
+</details>
             </div>
             <div class="experience">
                 <div class="experience__title">
@@ -163,14 +167,16 @@
                         <div>Seine-Saint-Denis (93)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                         <ul>
                             <li>Consultations juridiques en droit immobilier</li>
                             <li>Pôle formation: rédaction et animation de l'ensemble des formations</li>
                             <li>Veille juridique et règlementaire</li>
                             <li>Rédaction de notes juridiques</li>
                         </ul>
-                    </div>-->
+                    </div>
+</details>
             </div>
             <div class="experience">
                 <div class="experience__title">
@@ -187,14 +193,16 @@
                         <div>Anthony (92)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                             <ul>
                                 <li>Rédaction de contrats et baux</li>
                                 <li>Prise en charge du traitement des réclamations clients et de leur suivi</li>
                                 <li>Rédaction de notes juridiques</li>
                                 <li>Veille juridique et règlementaire</li>
                             </ul>
-                        </div>-->
+                        </div>
+</details>
             </div>
             <div class="experience">
                 <div class="experience__title">
@@ -211,7 +219,8 @@
                         <div>Paris (75)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                             <ul>
                                 <li>Consultations juridiques en droit immobilier</li>
                                 <li>Rédaction de notes et d'actualités juridiques</li>
@@ -221,7 +230,8 @@
                                 </li>
                                 <li>Veille juridique et règlementaire</li>
                             </ul>
-                        </div>-->
+                        </div>
+</details>
             </div>
             <div class="experience">
                 <div class="experience__title">
@@ -238,14 +248,16 @@
                         <div>Loiret (45)</div>
                     </div>
                 </div>
-                <!--<div class="experience__task">
+                <details>
+                <div class="experience__task">
                         <ul>
                             <li>Consultations juridiques en gestion locative, parc privé et parc social</li>
                             <li>Veille et actualités juridiques</li>
                             <li>Préparation et tenue de formations</li>
                             <li>Mémoire de Master 2: "Le logement des personnes âgées"</li>
                         </ul>
-                    </div>-->
+                    </div>
+</details>
             </div>
         </section>
         <section class="main__section main__formations">
@@ -336,7 +348,7 @@
             <h2>Portfolio</h2>
         </section>
         <!--<section class="main__section main__formulaire"-->
-        <?php include('contact.php')?>>
+        <?php include('contact.php')?>
             <!--<h2>Contactez-moi!</h2>
             <p>Une remarque? Une suggestion? Ou encore mieux: un poste à m'offrir? N'hésitez pas à m'écrire!</p>
             <form metho="post" action="traitement.js">
