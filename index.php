@@ -335,8 +335,10 @@
         <section class="main__section main__portfolio">
             <h2>Portfolio</h2>
         </section>
-        <section class="main__section main__formulaire">
-            <h2>Contactez-moi!</h2>
+        <!--<section class="main__section main__formulaire"-->
+        <?php include('contact.php')?>>
+            <!--<h2>Contactez-moi!</h2>
+            <p>Une remarque? Une suggestion? Ou encore mieux: un poste à m'offrir? N'hésitez pas à m'écrire!</p>
             <form metho="post" action="traitement.js">
                 <p>
                     <label for="nom">Nom</label>
@@ -351,7 +353,7 @@
                 </p>
 
                 <p>
-                    <label for="objet">Objet</label>
+                    <label for="objet">Sujet</label>
                     <input type="text" name="objet" id="objet" placeholder="Ex: Demande d'informations" size="30"
                         maxlength="200" required />
                 </p>
@@ -366,7 +368,7 @@
                 <p>
                     <input class="submit" type="submit" value="Envoyer">
                 </p>
-            </form>
+            </form>-->
         </section>
         <footer>
             <div class="footer">
