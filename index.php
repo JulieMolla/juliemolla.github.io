@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/942352743e.js" crossorigin="anonymous"></script>
     <title>CV de Julie Molla</title>
 </head>
 
@@ -14,7 +15,17 @@
         <div class="image__position">
             <nav class="image__menu"></nav>
             <section class="image__background"></section>
-            <section class="image__network"></section>
+            <section class="image__network">
+                <div class="network__linkedin">
+                <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="network__github">
+                <i class="fab fa-github"></i>
+                </div>
+                <div class="network__twitter">
+                <i class="fab fa-twitter-square"></i>
+                </div>
+            </section>
         </div>
     </aside>
 
