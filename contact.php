@@ -37,7 +37,7 @@
                 </p>
 
                 <p>
-                    <input class="submit" type="submit" value="Envoyer">
+                    <button class="submit" type="submit">Envoyer</button>
                 </p>
             </form>
             <?php
