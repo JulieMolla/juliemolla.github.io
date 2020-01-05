@@ -116,7 +116,7 @@ aside {
 }
 
 .experience__title, .formation {
-    line-height: 4px;
+    line-height: none;
 }
 
 .experience__date, .formation__date {
